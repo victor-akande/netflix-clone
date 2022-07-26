@@ -1,3 +1,7 @@
+.row {
+  margin-left: 30px;
+  color: #fff;
+}
 .row__posters {
   display: flex;
   overflow-y: hidden;
