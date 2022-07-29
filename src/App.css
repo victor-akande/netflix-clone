@@ -1,6 +1,8 @@
 * {
   margin: 0;
+  padding: 0;
 }
 .App {
+  /* background-color: rgba(17,17,17, 0.97); */
   background-color: #111;
 }

@@ -1,13 +1,13 @@
-import './App.css'
-import Banner from './components/Banner'
-import Row from './components/Row'
-import requests from './requests'
+import "./App.css";
+import Banner from "./components/Banner";
+import Nav from "./components/Nav";
+import Row from "./components/Row";
+import requests from "./requests";
 
 function App() {
   return (
     <div className="App">
-      {/* Nav */}
-      {/* Banner */}
+      <Nav />
       <Banner />
 
       <Row title="New Releases" fetchURL={requests.fetchNetflixOriginals} />
@@ -21,7 +21,7 @@ function App() {
       <Row title="Horror Movies" fetchURL={requests.fetchHorrorMovies} />
       <Row title="Romance" fetchURL={requests.fetchRomanceMovies} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
