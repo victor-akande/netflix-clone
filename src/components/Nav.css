@@ -3,12 +3,27 @@
     display: flex;
     width: 100%;
     top: 0;
-    justify-content: space-between;
     padding: 20px;
     height: 30px;
     z-index: 1;
     transition-timing-function: ease-in-out;
     transition: all 1s;
+    color: white;
+}
+
+.nav__image {
+    width: 100px;
+}
+
+.nav__left {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 0.9rem;
 }
 
 .nav__black {
@@ -20,6 +35,7 @@
     position: fixed;
     left: 20px;
     width: 80px;
+    cursor: pointer;
 }
 
 .nav__avatar {
@@ -27,4 +43,11 @@
     object-fit: contain;
     position: fixed;
     right: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .nav__left {
+        display: none;
+    }
 }
