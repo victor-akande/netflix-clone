@@ -25,6 +25,7 @@
   margin-right: 5px;
   transition: transform 300ms;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .row__poster:hover {
